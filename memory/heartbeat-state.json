@@ -4,8 +4,8 @@
     "accountPoolCheck": null,
     "weeklyReport": null,
     "competitorIntel": null,
-    "gitScan": 1741073160
+    "gitScan": 1741074120
   },
   "roiPending": [],
-  "notes": "2026-03-04 15:26 — 4个项目全部clean（818ys / android-project / 818ys-ai-sup01 / skills）"
+  "notes": "2026-03-04 15:42 — 818-platform 有未追踪的 pkg/ 文件，已自动提交。其余3个项目 clean。两个 subagent 正在构建 RELAY+SCOUT MVP。"
 }
