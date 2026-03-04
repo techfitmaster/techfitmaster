@@ -54,9 +54,24 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ### 项目路径
 
-- **818ys 主项目**：`/Users/dresing/projects/818ys`
-- **818ys Android**：`/Users/dresing/projects/818ys-sup/android-project`
-- **Skills 仓库**：`/Users/dresing/projects/skills` (共享 skills 发布仓库)
+| 路径 | 产品名 | 说明 |
+|------|--------|------|
+| `/Users/dresing/projects/818ys` | 818ys | 主项目 |
+| `/Users/dresing/projects/818ys-admin` | 818ys Admin | 后台管理系统 |
+| `/Users/dresing/projects/818ys-app` | 818ys App | 移动端 App |
+| `/Users/dresing/projects/818ys-sup` | 818ys Sup | Android 项目（`android-project/` 子目录）|
+| `/Users/dresing/projects/818ys-sup-kit` | SupKit | Android辅助工具套件（OCR、UI自动化、脚本引擎） |
+
+
+| `/Users/dresing/projects/818-aipass` | AIPass | AI中转站（原 818-relay） |
+| `/Users/dresing/projects/818-scout` | Scout | TG自动获客+CRM |
+| `/Users/dresing/projects/818-knowledge-base` | Knowledge Base | AI团队共享知识库（SOP、Runbook、产品文档） |
+
+| `/Users/dresing/projects/platform-core` | Platform Core | 818ys基础共享库（Spring Boot，Java/Maven） |
+| `/Users/dresing/projects/skills` | Skills | 共享 skills 发布仓库 |
+| `/Users/dresing/projects/github-profile` | GitHub Profile | GitHub 个人主页 README（techfitmaster/techfitmaster） |
+| `/Users/dresing/projects/dotfiles` | Dotfiles | 系统配置 |
+| `/Users/dresing/projects/818-opc-auto` | 818-OPC-Auto | OPC公众号自动化运营 |
 
 ### 命名规范
 

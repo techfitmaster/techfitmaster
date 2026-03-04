@@ -78,6 +78,27 @@
 
 ---
 
+## 技术选型定稿（2026-03-04 更新）
+
+### 818-relay（前后端分离）
+**后端：** Go + Gin + go-sql-driver/mysql + sqlx + gonanoid + zap + golang-migrate + gin-contrib/cors
+**前端：** React 18 + TypeScript + Vite + Tailwind + shadcn/ui + Axios + TanStack Query v5 + Zustand + React Router v6
+**前端页面：** Dashboard / Links / Conversions / Stats
+
+### 818-scout（前后端分离）
+**后端：** Go + Gin + go-sql-driver/mysql + sqlx + gotd/td + gpt-4o-mini + zap
+**前端：** React 18 + TypeScript + Vite + Tailwind + shadcn/ui + Axios + TanStack Query v5 + Zustand + React Router v6
+**前端页面：** Dashboard / Accounts / Groups / Leads / Messages / Templates
+
+### 数据库统一策略（2026-03-04 CTO 决策）
+- **全部使用 MySQL 8.0**（对齐阿里云 RDS，与 818ys 统一）
+- 生产：同一 RDS 实例，三个独立 DB（818ys / 818relay / 818scout）
+- 本地开发：MySQL 8.0（`brew install mysql` 或 `docker run mysql:8.0`）
+- 放弃 PostgreSQL：运维统一，降低跨系统维护成本
+- DSN 格式：`root:password@tcp(host:3306)/dbname?parseTime=true&charset=utf8mb4`
+
+---
+
 ## 开工顺序
 
 1. **初始化 Monorepo** — 目录结构 + go.work
