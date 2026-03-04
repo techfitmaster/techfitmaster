@@ -1,0 +1,52 @@
+# Logback 配置 - SLS 日志输出
+# src/main/resources/logback-spring.xml
+
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+    <!-- 控制台输出 -->
+    <appender name="CONSOLE" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="ch.qos.logback.core.encoder.LayoutWrappingEncoder">
+            <layout class="ch.qos.logback.contrib.json.classic.JsonLayout">
+                <jsonFormatter class="ch.qos.logback.contrib.jackson.JacksonJsonFormatter">
+                    <prettyPrint>false</prettyPrint>
+                </jsonFormatter>
+                <timestampFormat>yyyy-MM-dd'T'HH:mm:ss.SSS'Z'</timestampFormat>
+                <appendLineSeparator>true</appendLineSeparator>
+            </layout>
+        </encoder>
+    </appender>
+
+    <!-- SLS Appender (Docker stdout 采集) -->
+    <appender name="SLS" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder class="net.logstash.logback.encoder.LoggingEventCompositeJsonEncoder">
+            <providers>
+                <timestamp/>
+                <version/>
+                <logLevel/>
+                <loggerName/>
+                <threadName/>
+                <message/>
+                <logstashMarkers/>
+                <arguments/>
+                <stackTrace/>
+                <mdc/>
+                <context/>
+                <callerData/>
+            </providers>
+        </encoder>
+    </appender>
+
+    <root level="INFO">
+        <appender-ref ref="SLS"/>
+    </root>
+
+    <!-- 慢查询日志 -->
+    <logger name="com.bybys.infrastructure.persistence" level="DEBUG">
+        <appender-ref ref="SLS"/>
+    </logger>
+
+    <!-- 接口日志 -->
+    <logger name="com.bybys.interfaces" level="INFO">
+        <appender-ref ref="SLS"/>
+    </logger>
+</configuration>

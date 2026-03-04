@@ -1,0 +1,57 @@
+# Docker Compose 完整监控方案
+# docker-compose.monitoring.yml
+
+version: '3.8'
+
+services:
+  # 应用服务（集成 ARMS）
+  app:
+    image: registry.cn-hangzhou.aliyuncs.com/818ys/backend:latest
+    environment:
+      - SPRING_PROFILES_ACTIVE=prod
+      - JAVA_TOOL_OPTIONS=-javaagent:/opt/arms/arms-bootstrap.jar -Darms.licenseKey=${ARMS_LICENSE_KEY} -Darms.appName=818ys-backend
+    volumes:
+      - ./arms-agent:/opt/arms
+    logging:
+      driver: "json-file"
+      options:
+        max-size: "100m"
+        max-file: "10"
+        labels: "app=818ys-backend,env=prod"
+
+  # （可选）自托管 SkyWalking
+  skywalking-oap:
+    image: apache/skywalking-oap-server:9.5.0
+    environment:
+      SW_STORAGE: elasticsearch
+      SW_STORAGE_ES_CLUSTER_NODES: ${ELASTICSEARCH_HOST}:9200
+    ports:
+      - "11800:11800"
+      - "12800:12800"
+    restart: always
+
+  skywalking-ui:
+    image: apache/skywalking-ui:9.5.0
+    environment:
+      SW_OAP_ADDRESS: http://skywalking-oap:12800
+    ports:
+      - "8090:8080"
+    depends_on:
+      - skywalking-oap
+    restart: always
+
+  # Elasticsearch（SkyWalking 存储）
+  elasticsearch:
+    image: elasticsearch:7.17.9
+    environment:
+      - discovery.type=single-node
+      - "ES_JAVA_OPTS=-Xms2g -Xmx2g"
+    volumes:
+      - es-data:/usr/share/elasticsearch/data
+    ports:
+      - "9200:9200"
+    restart: always
+
+volumes:
+  es-data:
+    driver: local

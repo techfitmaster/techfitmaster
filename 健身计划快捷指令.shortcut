@@ -1,0 +1,59 @@
+{
+  "WFWorkflowActions": [
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.comment",
+      "WFWorkflowActionParameters": {
+        "WFCommentActionText": "Albert 健身计划自动化 - 6个月减脂训练\n目标：190斤 → 150斤\n\n此快捷指令将创建:\n- 每周6天训练提醒（周一至周六）\n- 每周日恢复日\n- 每周一体重测量\n- 提前30分钟通知\n\n运行一次即可创建所有日历事件"
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.repeat.count",
+      "WFWorkflowActionParameters": {
+        "WFRepeatCount": 26,
+        "GroupingIdentifier": "weeks"
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.getdates",
+      "WFWorkflowActionParameters": {
+        "WFDateActionMode": "Specified Date",
+        "WFDateActionDate": "2026-02-09"
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.adjustdate",
+      "WFWorkflowActionParameters": {
+        "WFAdjustDateOperation": "Add",
+        "WFDuration": {
+          "Value": {
+            "WFQuantityValue": "Repeat Index",
+            "WFSerializationType": "WFTextTokenAttachment"
+          },
+          "WFSerializationType": "WFQuantityFieldValue"
+        },
+        "WFTimeUnitQuantity": "Weeks"
+      }
+    },
+    {
+      "WFWorkflowActionIdentifier": "is.workflow.actions.addnewevent",
+      "WFWorkflowActionParameters": {
+        "WFCalendarEventTitle": "💪 上肢+核心训练",
+        "WFCalendarEventStartDate": "变量",
+        "WFCalendarEventDuration": 60,
+        "WFCalendarEventTime": "19:00",
+        "WFCalendarEventNotes": "俯卧撑 4×15-20\\nPike俯卧撑 4×12\\n引体向上 4×8-12\\n臂屈伸 4×12\\n平板支撑 4×60秒\\n卷腹 4×20\\n\\n结束：30分钟HIIT或跳绳",
+        "WFCalendarEventLocation": "家",
+        "WFCalendarEventAlertTimes": [-1800]
+      }
+    }
+  ],
+  "WFWorkflowClientRelease": "1116.31",
+  "WFWorkflowClientVersion": "2605.0.5",
+  "WFWorkflowIcon": {
+    "WFWorkflowIconStartColor": 4282601983,
+    "WFWorkflowIconGlyphNumber": 59511
+  },
+  "WFWorkflowMinimumClientVersion": 900,
+  "WFWorkflowMinimumClientVersionString": "900",
+  "WFWorkflowTypes": ["NCWidget", "WatchKit"]
+}

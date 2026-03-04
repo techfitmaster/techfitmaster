@@ -1,0 +1,20 @@
+{
+  "name": "dnf-rag-scraper",
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "scrape:tieba": "node scrape-tieba.js",
+    "scrape:douyin": "node scrape-douyin.js",
+    "scrape:wechat": "node scrape-wechat.js",
+    "scrape:all": "node scrape-all.js",
+    "import:guides": "node dnf-import-guides.js",
+    "query": "node dnf-rag-query.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.39.0",
+    "axios": "^1.13.5",
+    "cheerio": "^1.2.0",
+    "openai": "^4.24.1",
+    "playwright": "^1.40.0"
+  }
+}
