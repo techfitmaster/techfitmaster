@@ -73,6 +73,22 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 | `/Users/dresing/projects/dotfiles` | Dotfiles | 系统配置 |
 | `/Users/dresing/projects/818-opc-auto` | 818-OPC-Auto | OPC公众号自动化运营 |
 
+### OpenClaw 社区贡献自动化
+
+#### 每周 Bug 修复流程
+- **Cron 1** (每周六 10:00): 扫描 `openclaw/openclaw` bug issues，自动修复并提 PR
+  - Fork: `techfitmaster/openclaw`
+  - 每次最多处理 5 个 bug
+  - Cron Job ID: `f3a2b1c4-5d6e-7f8a-9b0c-1d2e3f4a5b6c`
+- **Cron 2** (每周六 10:30): 扫描已提交 PR 的 review comments，自动响应
+  - Cron Job ID: `a1b2c3d4-e5f6-7890-abcd-ef1234567890`
+- **已提交 PR**: https://github.com/openclaw/openclaw/pull/39436 (fix: accept api03 setup tokens)
+
+#### Fork 仓库
+- `techfitmaster/openclaw` — OpenClaw 贡献专用 fork（gh-issues skill 自动创建）
+
+---
+
 ### 命名规范
 
 - **项目命名前缀**：`818`（所有项目名以 818 开头，例如 818ys、818-xxx）

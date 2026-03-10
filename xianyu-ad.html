@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<style>
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { width: 800px; height: 800px; background: #1a1a2e; font-family: 'PingFang SC','Microsoft YaHei',sans-serif; display: flex; align-items: center; justify-content: center; }
+.card { width: 720px; background: linear-gradient(135deg, #16213e 0%, #0f3460 100%); border-radius: 24px; padding: 48px; border: 1px solid #e94560; }
+.tag { display: inline-block; background: #e94560; color: white; padding: 6px 16px; border-radius: 20px; font-size: 14px; font-weight: 600; margin-bottom: 20px; }
+h1 { color: white; font-size: 30px; font-weight: 700; line-height: 1.4; margin-bottom: 10px; }
+.subtitle { color: #a8b2d8; font-size: 15px; margin-bottom: 28px; }
+.items { display: flex; flex-direction: column; gap: 13px; margin-bottom: 28px; }
+.item { display: flex; align-items: center; gap: 12px; color: #ccd6f6; font-size: 14px; }
+.check { width: 22px; height: 22px; background: rgba(233,69,96,0.2); border: 1px solid #e94560; border-radius: 50%; text-align: center; line-height: 22px; color: #e94560; font-size: 12px; flex-shrink: 0; }
+.price-box { background: rgba(233,69,96,0.1); border: 1px solid rgba(233,69,96,0.4); border-radius: 16px; padding: 18px 22px; display: flex; align-items: center; justify-content: space-between; margin-bottom: 22px; }
+.price { color: #e94560; font-size: 36px; font-weight: 800; }
+.price-desc { color: #a8b2d8; font-size: 12px; margin-top: 3px; }
+.cta { color: #64ffda; font-size: 14px; font-weight: 600; }
+.footer { display: flex; align-items: center; justify-content: space-between; }
+.badge { background: rgba(100,255,218,0.1); border: 1px solid rgba(100,255,218,0.3); color: #64ffda; padding: 6px 14px; border-radius: 8px; font-size: 13px; }
+.logo { color: #a8b2d8; font-size: 12px; }
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="tag">🦞 OpenClaw 部署服务</div>
+  <h1>帮你配置 AI 自动化运营助手</h1>
+  <div class="subtitle">7×24h 自动干活，你只需要看结果 · 当天交付</div>
+  <div class="items">
+    <div class="item"><div class="check">✓</div><span>本地部署 OpenClaw + 渠道接入（微信 / TG / Discord）</span></div>
+    <div class="item"><div class="check">✓</div><span>配置自动日报、服务巡检、Git 代码备份</span></div>
+    <div class="item"><div class="check">✓</div><span>自定义 Skills（竞品监控 / SEO 博客 / 私域运营）</span></div>
+    <div class="item"><div class="check">✓</div><span>知识库 + AI 团队 SOP 文档体系搭建</span></div>
+    <div class="item"><div class="check">✓</div><span>7 天售后支持，问题随时处理</span></div>
+  </div>
+  <div class="price-box">
+    <div>
+      <div class="price">¥599 起</div>
+      <div class="price-desc">基础配置 · 复杂需求面议</div>
+    </div>
+    <div class="cta">私信询价 →</div>
+  </div>
+  <div class="footer">
+    <div class="badge">✅ 本人实际在用，非演示</div>
+    <div class="logo">by 818 AI Team · 2026</div>
+  </div>
+</div>
+</body>
+</html>
