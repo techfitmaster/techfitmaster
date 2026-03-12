@@ -1,36 +1,95 @@
 # Heartbeat Log
 
-## 2026-03-08
+## 2026-03-12
 
-### 04:28 - Git 未提交文件扫描
+### 19:29 - Git 状态扫描
+- **818ys-admin**: 1 个未提交文件 (package-lock.json)
+- **818-aipass**: 1 个未提交文件 (docs/软件功能说明书.md)
+- **dotfiles**: 1 个未提交文件 (zsh/.zshrc)
+- 其他项目无未提交文件
 
-**扫描结果：**
+### 18:29 - Git 状态扫描
+- **818ys-admin**: 1 个未提交文件 (package-lock.json)
+- **818-aipass**: 1 个未提交文件 (docs/软件功能说明书.md)
+- **dotfiles**: 1 个未提交文件 (zsh/.zshrc)
+- 其他项目无未提交文件
 
-| 项目 | 未提交文件数 | 文件 |
-|------|-------------|------|
-| 818ys | 1 | package-lock.json |
-| 818ys-app | 1 | package-lock.json |
-| 818-knowledge-base | 2 | .DS_Store, .claude/ |
-| skills | 1 | install.sh |
-| dotfiles | 4 | install.sh, neovim/.config/nvim/nvim (deleted), zsh/.zshrc, .DS_Store |
+### 15:29 - Git 状态扫描
+- **818ys-admin**: 1 个未提交文件 (package-lock.json)
+- **818-aipass**: 1 个未提交文件 (docs/软件功能说明书.md)
+- **dotfiles**: 1 个未提交文件 (zsh/.zshrc)
+- 其他项目无未提交文件
 
-**总计：** 5 个项目有未提交文件，共 9 个未提交项
+### 14:29 - Git 状态扫描
+- **818-aipass**: 1 个未提交文件
+- **workspace**: 4 个未提交文件
+- **skills**: 已提交（无变化）
+- 其他项目无未提交文件
+- **818-aipass**: 1 个未提交文件 (docs/软件功能说明书.md)
+- **skills**: 1 个未提交文件 (skills/smart-commit.md)
+- **dotfiles**: 1 个未提交文件 (zsh/.zshrc)
+- 其他项目无未提交文件
 
-### 10:28 - Git 未提交文件扫描
+### 11:29 - Git 状态扫描
+- **workspace**: 4 个未提交文件
+  - memory/2026-03-10.md (modified)
+  - memory/heartbeat-log.md (modified)
+  - memory/heartbeat-state.json (modified)
+  - memory/2026-03-11.md (new, untracked)
+- 其他项目无未提交文件
 
-### 12:00 - OpenClaw 配置备份
-- 提交: `9642365`
-- 更改: 65 files, +798 -23743 lines
-- 状态: ✅ 成功推送到 GitHub
+### 04:29 - Git 状态扫描
+- **workspace**: 4 个未提交文件
+  - memory/2026-03-10.md (modified)
+  - memory/heartbeat-log.md (modified)
+  - memory/heartbeat-state.json (modified)
+  - memory/2026-03-11.md (new, untracked)
+- 其他项目无未提交文件
 
-### 12:00 - Git 未提交文件扫描
+> 注: auto-backup 每天 00:00 和 12:00 自动提交
 
-**状态：** 与 04:28 相同，无变化
+## 2026-03-11
 
-| 项目 | 未提交文件数 | 文件 |
-|------|-------------|------|
-| 818ys | 1 | package-lock.json |
-| 818ys-app | 1 | package-lock.json |
-| 818-knowledge-base | 2 | .DS_Store, .claude/ |
-| skills | 1 | install.sh |
-| dotfiles | 4 | install.sh, neovim/.config/nvim/nvim (deleted), zsh/.zshrc, .DS_Store |
+### 07:29 - Git 状态扫描
+- **workspace**: 4 个未提交文件 (memory/*.md)
+- 其他项目无未提交文件
+
+---
+
+## 2026-03-12
+
+### 10:29 - Git 状态扫描
+- **workspace**: 4 个未提交文件 (memory/*.md)
+- 其他项目无未提交文件
+
+---
+
+## 2026-03-11
+
+### 06:29
+- **818-aipass**: 1 个未提交文件 (docs/软件功能说明书.md)
+- 其他 12 个项目无未提交文件
+
+### 12:29 - Git 状态扫描
+- **skills**: 1 个未提交文件 (skills/smart-commit.md)
+- **dotfiles**: 1 个未提交文件 (zsh/.zshrc)
+- 其他 11 个项目无未提交文件
+
+### 16:29 - Git 状态扫描
+- **818-aipass**: 1 个未提交文件 (docs/软件功能说明书.md)
+- **skills**: 1 个未提交文件 (skills/smart-commit.md)
+- **dotfiles**: 1 个未提交文件 (zsh/.zshrc)
+- **dnfm-auto**: 2 个未提交文件 (dnfm/scrcpy_adb_qt_mac.py, main_mac.py) - 新克隆项目
+- 其他项目无未提交文件
+
+## 2026-03-12
+
+### 09:29 - Git 状态扫描
+- **818-aipass**: 1 个docs/软件功能未提交文件 (说明书.md)
+- **818-gaming**: 4 个未提交 (admin, backend, miniapp, packages/shared)
+- **818-gaming-dev1**: 1 个未提交 (packages/shared)
+- **818-gaming-dev2**: 4 个未提交 (admin, backend, miniapp, packages/shared)
+- **818-ys-admin**: 1 个未提交 (vite.config.ts)
+- **skills**: 1 个未提交 (skills/smart-commit.md)
+- **dotfiles**: 1 个未提交 (zsh/.zshrc)
+- 其他项目无未提交文件

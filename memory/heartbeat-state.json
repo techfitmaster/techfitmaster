@@ -1,11 +1,7 @@
 {
   "lastChecks": {
-    "dailyOpsReport": 1773105427,
-    "accountPoolCheck": 1773105427,
-    "weeklyReport": null,
-    "competitorIntel": null,
-    "gitScan": 1773160800
-  },
-  "roiPending": [],
-  "notes": "2026-03-10 13:00 — 818-knowledge-base 仍有3个未提交文件（连续第11次扫描）。Albert 正在配置多飞书机器人（AI团长），Browser Relay origin 问题已修复，待完成连接。"
+    "daily_report": 1773309683000,
+    "git_scan_1829": 1773238140000,
+    "git_scan_latest": 1773314980000
+  }
 }
