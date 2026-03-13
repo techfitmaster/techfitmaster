@@ -73,5 +73,15 @@
     "commitment_deadline": null,
     "applied_lessons": [],
     "hub_lessons": []
+  },
+  "last_solidify": {
+    "run_id": "run_1773418608741",
+    "at": "2026-03-13T16:20:41.281Z",
+    "event_id": "evt_1773418841281",
+    "capsule_id": "capsule_1770477654236",
+    "outcome": {
+      "status": "success",
+      "score": 0.85
+    }
   }
 }

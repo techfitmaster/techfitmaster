@@ -94,3 +94,8 @@
 - **dotfiles**: 1 个未提交 (zsh/.zshrc)
 - 其他项目无未提交文件
 ✅ OpenClaw 备份完成 (12:00)
+
+## 2026-03-14 00:29 Git 状态扫描
+- ⚠️ 818ys-admin: 1 个未提交 (package-lock.json 修改)
+- ⚠️ 818-aipass: 1 个未跟踪文件 (docs/软件功能说明书.md)
+- ⚠️ 818-gaming: 3 个未提交 (backend、miniapp、packages/shared 子模块变更)

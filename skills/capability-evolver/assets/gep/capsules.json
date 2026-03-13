@@ -3,7 +3,7 @@
   "capsules": [
     {
       "type": "Capsule",
-      "schema_version": "1.5.0",
+      "schema_version": "1.6.0",
       "id": "capsule_1770477654236",
       "trigger": [
         "log_error",
@@ -16,27 +16,43 @@
       "summary": "固化：gene_gep_repair_from_errors 命中信号 log_error, errsig:**TOOLRESULT**: { \"status\": \"error\", \"tool\": \"exec\", \"error\": \"error: unknown command 'process'\\n\\nCommand exited with code 1\" }, user_missing, windows_shell_incompatible, perf_bottleneck，变更 1 文件 / 2 行。",
       "confidence": 0.85,
       "blast_radius": {
-        "files": 1,
-        "lines": 2
+        "files": 0,
+        "lines": 0
       },
       "outcome": {
         "status": "success",
         "score": 0.85
       },
       "success_streak": 1,
+      "success_reason": "Gene gene_gep_repair_from_errors (repair) matched signals [log_error, errsig:**TOOLRESULT**: README.md | 5 ++++- 1 file changed, 4 insertions(+), 1 deletion(-) [main 16fc280] chore: auto-update profile [2026-03-13] 1 file changed, 4 insertions(+), 1 deletion(-) To github.com:techfitmaster/techfitmaster.git ! [rejected] main -> main (fe, high_tool_usage:exec, repeated_tool_usage:exec]. Scope: 0 file(s), 0 line(s) changed. Outcome score: 0.85. Strategy applied: Extract structured signals from logs and user instructions; Select an existing Gene by signals match (no improvisation); Estimate blast radius (files, lines) before editing.",
       "env_fingerprint": {
-        "node_version": "v22.22.0",
-        "platform": "linux",
-        "arch": "x64",
-        "os_release": "6.1.0-42-cloud-amd64",
-        "evolver_version": "1.7.0",
-        "cwd": ".",
-        "captured_at": "2026-02-07T15:20:54.155Z"
+        "device_id": "f1db8106da1f9323ad013412a522ce1f",
+        "node_version": "v25.6.0",
+        "platform": "darwin",
+        "arch": "arm64",
+        "os_release": "25.3.0",
+        "hostname": "a7ebd21f86d7",
+        "evolver_version": "1.29.4",
+        "client": "@evomap/evolver",
+        "client_version": "1.29.4",
+        "cwd": "7176962bb6aa",
+        "container": false
       },
+      "source_type": "generated",
+      "reused_asset_id": null,
       "a2a": {
         "eligible_to_broadcast": false
       },
-      "asset_id": "sha256:3eed0cd5038f9e85fbe0d093890e291e9b8725644c766e6cce40bf62d0f5a2e8"
+      "content": "Gene: gene_gep_repair_from_errors (repair)\n\nSignals: log_error, errsig:**TOOLRESULT**: README.md | 5 ++++- 1 file changed, 4 insertions(+), 1 deletion(-) [main 16fc280] chore: auto-update profile [2026-03-13] 1 file changed, 4 insertions(+), 1 deletion(-) To github.com:techfitmaster/techfitmaster.git ! [rejected] main -> main (fe, high_tool_usage:exec, repeated_tool_usage:exec\n\nStrategy:\n1. Extract structured signals from logs and user instructions\n2. Select an existing Gene by signals match (no improvisation)\n3. Estimate blast radius (files, lines) before editing\n4. Apply smallest reversible patch\n5. Validate using declared validation steps; rollback on failure\n6. Solidify knowledge: append EvolutionEvent, update Gene/Capsule store\n\nScope: 0 file(s), 0 line(s)\n\nOutcome score: 0.85",
+      "strategy": [
+        "Extract structured signals from logs and user instructions",
+        "Select an existing Gene by signals match (no improvisation)",
+        "Estimate blast radius (files, lines) before editing",
+        "Apply smallest reversible patch",
+        "Validate using declared validation steps; rollback on failure",
+        "Solidify knowledge: append EvolutionEvent, update Gene/Capsule store"
+      ],
+      "asset_id": "sha256:b5c06bff0e9f155997250d6e3416f3a8d545a1571b7b8bfee819807e66d58bbe"
     },
     {
       "type": "Capsule",
