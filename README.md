@@ -23,7 +23,9 @@
 - **[818-gaming](https://github.com/techfitmaster/818-gaming)** - 818ys Monorepo 结构（Git 子模块管理后端/Admin/Portal/MiniApp）
 - **[818-gaming-admin](https://github.com/techfitmaster/818-gaming-admin)** - 818ys 管理后台（React 19 + TypeScript + Vite + Tailwind CSS）
 - **[818ys-admin](https://github.com/techfitmaster/818ys-admin)** - 818ys 后台管理系统
+- **[818-ys-admin](https://github.com/techfitmaster/818-ys-admin)** - 818ys 新版管理后台（React 19 + TypeScript + Vite，迁移重构中）
 - **[818ys-app](https://github.com/techfitmaster/818ys-app)** - 818ys 微信小程序前端
+- **[818-ys-app](https://github.com/techfitmaster/818-ys-app)** - 818ys H5 前端（从小程序迁移至 React H5）
 - **[818ys-sup](https://github.com/techfitmaster/818ys-sup)** - 818勇士助手 Android 客户端（逆向重建）
 - **[818ys-sup-kit](https://github.com/techfitmaster/818ys-sup-kit)** - Android 辅助工具套件（OCR、UI 自动化、脚本引擎）
 - **[platform-core](https://github.com/techfitmaster/platform-core)** - 多产品 Spring Boot 基础共享库
@@ -40,6 +42,7 @@
 
 - **[skills](https://github.com/techfitmaster/skills)** 🔥 - 共享 Agent Skills 发布仓库，ClawHub 官方收录
 - **[dotfiles](https://github.com/techfitmaster/dotfiles)** 🔥 - macOS/Linux 系统配置 dotfiles
+- **[818-monitor](https://github.com/techfitmaster/818-monitor)** 🔥 - 服务器自动化巡检系统（多实例健康检查 + 飞书告警通知）
 - **[818-seo-blog](https://github.com/techfitmaster/818-seo-blog)** - SEO 博客站群，AI 自动发文
 - **[iran-war-tracker](https://github.com/techfitmaster/iran-war-tracker)** - 伊朗战争成本实时追踪器（中文版）
 
@@ -62,7 +65,7 @@
 - **7×24h AI 团队** — OpenClaw 多角色 Agent 负责运营、研发、产品决策
 - **自动化闭环** — Issue → AI 实现 → PR → Review → 合并，全程最小人工干预
 
-## 📈 2026 Focus (更新于 2026-03-11)
+## 📈 2026 Focus (更新于 2026-03-13)
 
 - 🤖 用 AI Agent 驱动产品全链路自动化
 - 🎮 将游戏服务平台升级为 AI 赋能的超级工具
