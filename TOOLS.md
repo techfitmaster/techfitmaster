@@ -52,6 +52,19 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 - **818ys 服务器**：待配置
 
+### 818 Monitor 项目
+
+- **位置**：`/Users/dresing/projects/818-monitor`
+- **用途**：服务器自动化巡检
+- **配置**：`config/servers.yaml`
+
+#### 巡检服务器
+
+| 实例 | IP | 服务 |
+|------|-----|------|
+| 实例1 | 121.40.113.247 | backend-1, backend-2, Nginx, Redis |
+| 实例2 | 47.110.251.83 | backend-3, Redis |
+
 ### 项目路径
 
 | 路径 | 产品名 | 说明 |
