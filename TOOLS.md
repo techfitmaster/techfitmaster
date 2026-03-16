@@ -100,6 +100,13 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 ---
 
+### Git 工作流规范
+
+- **所有代码变更统一走 PR 流程**，禁止直接推送 main
+- 分支命名：`feature/`、`fix/`、`refactor/`、`docs/` 前缀
+- PR 创建后指派给对应开发者
+- 例外：workspace/配置文件（非项目代码）可直接提交
+
 ### 命名规范
 
 - **项目命名前缀**：`818`（所有项目名以 818 开头，例如 818ys、818-xxx）

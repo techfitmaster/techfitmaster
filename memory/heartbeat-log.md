@@ -106,3 +106,9 @@
 - ⚠️ 818-gaming: 5 个未提交（admin、backend、miniapp、packages/shared、portal 子模块变更）
 - ⚠️ 818-agi: 1 个未提交（packages/shared 子模块变更）
 - ⚠️ workspace: 2 个未提交（TOOLS.md 修改，skill-auto-optimizer/ 新目录未跟踪）
+
+## 2026-03-16 21:32 Git 状态扫描
+- ⚠️ 818-gaming: admin 子模块指针有变更（未提交）
+- ⚠️ 818-agi: packages/shared 子模块指针有变更（未提交）
+- ⚠️ dotfiles: zsh/.zshenv + zsh/.zshrc 有修改（未提交）
+- 其他项目无未提交文件 ✅
