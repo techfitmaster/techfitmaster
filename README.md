@@ -32,9 +32,7 @@
 
 ### 🤖 AI Products
 
-- **[818-aipass](https://github.com/techfitmaster/818-aipass)** - AIPass：AI API 中转网关，多模型统一接入，服务俄罗斯市场，支持 USDT 充值
-- **[818-agi](https://github.com/techfitmaster/818-agi)** - AGI 探索项目，构建通用 AI 智能体能力
-- **[818-scout](https://github.com/techfitmaster/818-scout)** - Scout：Telegram 自动获客 + CRM，精准触达俄罗斯 AI 需求用户
+- **[818-agi](https://github.com/techfitmaster/818-agi)** 🔥 - AI 中转站 + TG 获客 CRM 一体化平台（Go 1.22 + React 18）
 - **[818-opc-auto](https://github.com/techfitmaster/818-opc-auto)** - OPC 公众号全自动化运营（AI 生成内容 + 定时发布）
 - **[818-knowledge-base](https://github.com/techfitmaster/818-knowledge-base)** - AI 团队共享知识库 & SOP 体系（唯一真相来源）
 
@@ -65,12 +63,12 @@
 - **7×24h AI 团队** — OpenClaw 多角色 Agent 负责运营、研发、产品决策
 - **自动化闭环** — Issue → AI 实现 → PR → Review → 合并，全程最小人工干预
 
-## 📈 2026 Focus (更新于 2026-03-15)
+## 📈 2026 Focus (更新于 2026-03-16)
 
-- 🤖 用 AI Agent 驱动产品全链路自动化
-- 🎮 将游戏服务平台升级为 AI 赋能的超级工具
-- 🌏 AI 产品出海俄罗斯市场
-- 📣 构建 OPC（一人公司）创业社区与内容矩阵
+- 🤖 **Agentic Evolution** — 推进 818-agi 租户管理与数据库迁移，构建全链路自动化
+- 🎮 **Legacy Optimization** — 维护 818ys/818-gaming 核心稳定性，修复 MyBatis 与子模块同步问题
+- 🌏 **Market Expansion** — 聚焦 AI 产品出海与一人公司（OPC）社区建设
+- 📣 **Stability** — 持续增强 818-monitor 巡检能力，保障多实例 7x24h 运行
 
 ---
 
