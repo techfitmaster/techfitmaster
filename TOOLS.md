@@ -69,16 +69,14 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 | 路径 | 产品名 | 说明 |
 |------|--------|------|
-| `/Users/dresing/projects/818ys` | 818ys | 主项目 |
-| `/Users/dresing/projects/818ys-admin` | 818ys Admin | 后台管理系统 |
-| `/Users/dresing/projects/818ys-app` | 818ys App | 移动端 App |
+| `/Users/dresing/projects/818-gaming` | 818Gaming | 主工程 Monorepo（backend/admin/portal/miniapp/deploy/docs） |
+| `/Users/dresing/projects/818-gaming-admin` | 818Gaming Admin | 独立后台管理子仓库 |
 | `/Users/dresing/projects/818ys-sup` | 818ys Sup | Android 项目（`android-project/` 子目录）|
 | `/Users/dresing/projects/818ys-sup-kit` | SupKit | Android辅助工具套件（OCR、UI自动化、脚本引擎） |
-
-
-| `/Users/dresing/projects/818-aipass` | AIPass | AI中转站（原 818-relay） |
-| `/Users/dresing/projects/818-scout` | Scout | TG自动获客+CRM |
+| `/Users/dresing/projects/818-agi` | 818AGI | AI中转站+TG获客CRM一体化平台（Go 1.22 + React 18） |
 | `/Users/dresing/projects/818-knowledge-base` | Knowledge Base | AI团队共享知识库（SOP、Runbook、产品文档） |
+
+> ⚠️ 已废弃：`818ys`（旧版Gaming后端）、`818-aipass`（AI中转站旧版）、`818-scout`（TG获客旧版）
 
 | `/Users/dresing/projects/platform-core` | Platform Core | 818ys基础共享库（Spring Boot，Java/Maven） |
 | `/Users/dresing/projects/skills` | Skills | 共享 skills 发布仓库 |
