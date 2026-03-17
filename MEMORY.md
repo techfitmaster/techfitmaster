@@ -50,7 +50,25 @@
 | AI中转站（Claude & Gemini & OpenAI） | MVP功能上线 | - | - | - |
 | 智能体（引流&客服&咨询&资讯&陪玩） | 客服&引流（TG） | - | - | - |
 
+## 项目部署状态
+
+### 818-agi（AI中转站平台）
+- **架构**：Go 1.22 backend + React 18 前端（portal + admin）
+- **运行方式**：Docker 容器化，Actions Runner 自动部署（`actions-runner-agi`）
+- **端口**：Portal :3002 / Admin :3003 / Backend :8419
+- **数据库**：共享 818-infra MySQL (:3306, DB: agi818) + Redis (:6379)
+- **迁移**：共 28 个 migration 文件（021-028 为 RBAC/计费/限流）
+- **踩坑**：027_rbac.up.sql 用 `INSERT` 会因重跑报重复键错误，需改 `INSERT IGNORE`（已修复，2026-03-17）
+- **前端部署**：dev 镜像直接内嵌产物到 Nginx，无 docker-compose frontend 服务——独立 docker run 维护
+
+### 818-sop（SOP 工程）
+- **路径**：`/Users/dresing/projects/818-sop/`
+- **内容**：ai-team SOP、CEO review、project-naming 等 Markdown 文档（原位于 github-profile 工程下）
+- **迁移时间**：2026-03-17
+
 ## 重要事件
 
 - 2026-03-06：OpenClaw 首次上线
 - 2026-03-07：飞书 channel 接入成功（websocket 模式）
+- 2026-03-17：818-agi RBAC 迁移冲突修复，完成首次全栈部署（backend + portal + admin）
+- 2026-03-17：SOP 工程从 github-profile 独立迁移到 818-sop 目录

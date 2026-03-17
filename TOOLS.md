@@ -88,6 +88,7 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 | `/Users/dresing/projects/818ys-sup-kit` | SupKit | Android辅助工具套件（OCR、UI自动化、脚本引擎） |
 | `/Users/dresing/projects/818-agi` | 818AGI | AI中转站+TG获客CRM一体化平台（Go 1.22 + React 18） |
 | `/Users/dresing/projects/818-knowledge-base` | Knowledge Base | AI团队共享知识库（SOP、Runbook、产品文档） |
+| `/Users/dresing/projects/818-sop` | 818 SOP | AI Team SOP 执行规范（AO、AP、ACEO 系列） |
 
 > ⚠️ 已废弃：`818ys`（旧版Gaming后端）、`818-aipass`（AI中转站旧版）、`818-scout`（TG获客旧版）
 

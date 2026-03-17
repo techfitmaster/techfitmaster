@@ -61,4 +61,4 @@ C. 修改 — 告诉我怎么调整
 
 ## 📖 SOP 参考文档
 
-完整执行规范见：`818-sop-ai-team-executable.md`
+完整执行规范见：`/Users/dresing/projects/818-sop/818-sop-ai-team-executable.md`
