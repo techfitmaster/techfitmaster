@@ -57,13 +57,26 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 - **位置**：`/Users/dresing/projects/818-monitor`
 - **用途**：服务器自动化巡检
 - **配置**：`config/servers.yaml`
+- **巡检脚本**：`scripts/healthcheck.sh`
 
 #### 巡检服务器
 
-| 实例 | IP | 服务 |
-|------|-----|------|
-| 实例1 | 121.40.113.247 | backend-1, backend-2, Nginx, Redis |
-| 实例2 | 47.110.251.83 | backend-3, Redis |
+| 实例 | IP | SSH 用户 | 服务 |
+|------|-----|---------|------|
+| 实例1 | 121.40.113.247 | monitor | backend-1, backend-2, Nginx, Redis |
+| 实例2 | 47.110.251.83 | monitor | backend-3, Redis |
+
+> ⚠️ SSH 用户必须用 `monitor`，不是 `root`。用 `root` 会被拒绝。
+
+#### RDS
+- `rm-bp14wpqs63v3ffoy9.mysql.rds.aliyuncs.com`
+
+#### 外部监控域名
+- `https://api.818ys.com`
+- `https://admin.818ys.com`
+
+#### 飞书通知
+- webhook_url：**待填写**（在 `config/servers.yaml` 的 `notifications.feishu.webhook_url`）
 
 ### 项目路径
 
