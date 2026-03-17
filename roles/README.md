@@ -10,6 +10,7 @@
 | [运营部](operations.md) | 🎯 | `anthropic/claude-sonnet-4-6` | 用户增长、内容运营、数据分析 |
 | [财务部](finance.md) | 💰 | `google-antigravity/gemini-3-flash` | 账目核对、支出分析、预算管理 |
 | [法务部](legal.md) | ⚖️ | `google-antigravity/gemini-3-flash` | 合同审查、合规检查、风险提示 |
+| [SOP优化师](sop-optimizer.md) | 📋 | `anthropic/claude-sonnet-4-6` | SOP诊断、优化、编写、落地 |
 
 ## 切换角色
 
