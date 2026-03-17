@@ -32,15 +32,18 @@
 
 ### 🤖 AI Products
 
-- **[818-agi](https://github.com/techfitmaster/818-agi)** 🔥 - AI 中转站 + TG 获客 CRM 一体化平台（Go 1.22 + React 18）
+- **[818-agi](https://github.com/techfitmaster/818-agi)** 🔥 - AI 中转站 + TG 获客 CRM 一体化平台（Go 1.22 + React 18，含 RBAC 权限体系 + 智能路由 + 两阶段计费）
+- **[818-scout](https://github.com/techfitmaster/818-scout)** 🔥 - TG 自动获客 + 客户 CRM（俄语社群关键词监控 → 智能私信 → 转化漏斗全链路）
 - **[818-opc-auto](https://github.com/techfitmaster/818-opc-auto)** - OPC 公众号全自动化运营（AI 生成内容 + 定时发布）
 - **[818-knowledge-base](https://github.com/techfitmaster/818-knowledge-base)** - AI 团队共享知识库 & SOP 体系（唯一真相来源）
+- **[818-sop](https://github.com/techfitmaster/818-sop)** - 818科技 SOP 文档仓库（21个 SOP + 产品操作手册 + Runbook，供所有 Agent 只读）
 
 ### 🛠️ Tools & Side Projects
 
 - **[skills](https://github.com/techfitmaster/skills)** 🔥 - 共享 Agent Skills 发布仓库，ClawHub 官方收录
 - **[dotfiles](https://github.com/techfitmaster/dotfiles)** 🔥 - macOS/Linux 系统配置 dotfiles
 - **[818-monitor](https://github.com/techfitmaster/818-monitor)** 🔥 - 服务器自动化巡检系统（多实例健康检查 + 飞书告警通知）
+- **[818-infra](https://github.com/techfitmaster/818-infra)** - 本地统一中间件基础设施（MySQL 8.0 + Redis 7，所有项目共享实例）
 - **[818-seo-blog](https://github.com/techfitmaster/818-seo-blog)** - SEO 博客站群，AI 自动发文
 - **[iran-war-tracker](https://github.com/techfitmaster/iran-war-tracker)** - 伊朗战争成本实时追踪器（中文版）
 
@@ -63,12 +66,12 @@
 - **7×24h AI 团队** — OpenClaw 多角色 Agent 负责运营、研发、产品决策
 - **自动化闭环** — Issue → AI 实现 → PR → Review → 合并，全程最小人工干预
 
-## 📈 2026 Focus (更新于 2026-03-16)
+## 📈 2026 Focus (更新于 2026-03-17)
 
-- 🤖 **Agentic Evolution** — 推进 818-agi 租户管理与数据库迁移，构建全链路自动化
-- 🎮 **Legacy Optimization** — 维护 818ys/818-gaming 核心稳定性，修复 MyBatis 与子模块同步问题
-- 🌏 **Market Expansion** — 聚焦 AI 产品出海与一人公司（OPC）社区建设
-- 📣 **Stability** — 持续增强 818-monitor 巡检能力，保障多实例 7x24h 运行
+- 🤖 **Agentic Evolution** — 818-agi 完成 RBAC 权限体系 + 智能路由 + 两阶段计费三大核心系统，Scout 获客全链路打通
+- 🎮 **Security & Stability** — 818-gaming 完成 RBAC P0 安全漏洞修复、CPS 前端整改、申诉扣款事务安全加固
+- 🌏 **Market Expansion** — 818-scout 主攻俄语 Telegram 市场 AI 产品获客，OPC 社区持续运营
+- 🏗️ **Infra Consolidation** — 818-infra 统一本地中间件，818-sop 规范化 Agent 协作 SOP 体系
 
 ---
 
