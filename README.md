@@ -66,12 +66,12 @@
 - **7×24h AI 团队** — OpenClaw 多角色 Agent 负责运营、研发、产品决策
 - **自动化闭环** — Issue → AI 实现 → PR → Review → 合并，全程最小人工干预
 
-## 📈 2026 Focus (更新于 2026-03-17)
+## 📈 2026 Focus (更新于 2026-03-18)
 
-- 🤖 **Agentic Evolution** — 818-agi 完成 RBAC 权限体系 + 智能路由 + 两阶段计费三大核心系统，Scout 获客全链路打通
-- 🎮 **Security & Stability** — 818-gaming 完成 RBAC P0 安全漏洞修复、CPS 前端整改、申诉扣款事务安全加固
-- 🌏 **Market Expansion** — 818-scout 主攻俄语 Telegram 市场 AI 产品获客，OPC 社区持续运营
-- 🏗️ **Infra Consolidation** — 818-infra 统一本地中间件，818-sop 规范化 Agent 协作 SOP 体系
+- 🤖 **Agentic Evolution** — 818-agi RBAC 权限体系持续迭代（菜单/角色/权限管理上线，迁移幂等性修复），智能路由 + 两阶段计费稳定运行
+- 🎮 **Security & Stability** — 818-gaming RBAC P0 安全漏洞修复、CPS 前端整改、申诉扣款事务安全加固全部落地，三角洲服务器支持上线
+- 🌏 **Market Expansion** — 818-scout 主攻俄语 Telegram 市场 AI 产品获客，818-seo-blog AI 自动发文（DNF 攻略持续产出）
+- 🏗️ **SOP & Infra** — 818-sop 正式初始化，21 个 SOP + Runbook 统一 Agent 协作规范；818-infra 统一本地中间件
 
 ---
 
