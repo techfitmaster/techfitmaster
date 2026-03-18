@@ -68,10 +68,10 @@
 
 ## 📈 2026 Focus (更新于 2026-03-18)
 
-- 🤖 **Agentic Evolution** — 818-agi RBAC 权限体系持续迭代（菜单/角色/权限管理上线，迁移幂等性修复），智能路由 + 两阶段计费稳定运行
-- 🎮 **Security & Stability** — 818-gaming RBAC P0 安全漏洞修复、CPS 前端整改、申诉扣款事务安全加固全部落地，三角洲服务器支持上线
-- 🌏 **Market Expansion** — 818-scout 主攻俄语 Telegram 市场 AI 产品获客，818-seo-blog AI 自动发文（DNF 攻略持续产出）
-- 🏗️ **SOP & Infra** — 818-sop 正式初始化，21 个 SOP + Runbook 统一 Agent 协作规范；818-infra 统一本地中间件
+- 🤖 **Agentic Evolution** — 818-agi 引入 eval 验证 + 自我改进流程（步骤7），端口规划统一管理，portal/admin 迁移为 Git 子模块架构
+- 🎮 **CI/CD & Stability** — 818-gaming CI 流水线迁移至 self-hosted runner，复用 composite action 简化流程，测试并行度优化
+- 🌏 **Content & Growth** — 818-seo-blog AI 自动发文（DNF 噩梦模式攻略 + 王者荣耀射手上分攻略），818-scout 持续俄语 Telegram 市场获客
+- 🏗️ **SOP & Infra** — 818-sop 统一 21 个 SOP + Runbook 规范所有 Agent 协作；818-infra 统一本地中间件
 
 ---
 
