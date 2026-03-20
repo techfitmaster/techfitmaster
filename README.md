@@ -21,6 +21,7 @@
 
 - **[818ys](https://github.com/techfitmaster/818ys)** 🔥 - DNF 游戏综合服务平台，单后端多租户架构，支持国服/韩服双小程序
 - **[818-gaming](https://github.com/techfitmaster/818-gaming)** - 818ys Monorepo 结构（Git 子模块管理后端/Admin/Portal/MiniApp）
+- **818-gaming-dev1 / 818-gaming-dev2** - 818-gaming 本地开发环境隔离分支（dev1/dev2 双轨并行，含独立 backend/admin/portal/miniapp）
 - **[818-gaming-admin](https://github.com/techfitmaster/818-gaming-admin)** - 818ys 管理后台（React 19 + TypeScript + Vite + Tailwind CSS）
 - **[818ys-admin](https://github.com/techfitmaster/818ys-admin)** - 818ys 后台管理系统
 - **[818-ys-admin](https://github.com/techfitmaster/818-ys-admin)** - 818ys 新版管理后台（React 19 + TypeScript + Vite，迁移重构中）
@@ -66,7 +67,7 @@
 - **7×24h AI 团队** — OpenClaw 多角色 Agent 负责运营、研发、产品决策
 - **自动化闭环** — Issue → AI 实现 → PR → Review → 合并，全程最小人工干预
 
-## 📈 2026 Focus (更新于 2026-03-19)
+## 📈 2026 Focus (更新于 2026-03-20)
 
 - 🤖 **Agentic Evolution** — 818-agi 引入 eval 验证 + 自我改进流程（步骤7），端口规划统一管理，portal/admin 迁移为 Git 子模块架构
 - 🎮 **CI/CD & Stability** — 818-gaming CI 流水线迁移至 self-hosted runner，复用 composite action 简化流程，测试并行度优化
