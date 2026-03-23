@@ -67,11 +67,11 @@
 - **7×24h AI 团队** — OpenClaw 多角色 Agent 负责运营、研发、产品决策
 - **自动化闭环** — Issue → AI 实现 → PR → Review → 合并，全程最小人工干预
 
-## 📈 2026 Focus (更新于 2026-03-22)
+## 📈 2026 Focus (更新于 2026-03-23)
 
 - 🤖 **Agentic Evolution** — 818-agi 引入 eval 验证 + 自我改进流程（步骤7），端口规划统一管理，portal/admin 迁移为 Git 子模块架构
-- 🎮 **CI/CD & Stability** — 818-gaming 子模块更新（每日签到 + 商城 + 转盘 + 头像框），CI 流水线迁移至 self-hosted runner，复用 composite action 简化流程
-- 🌏 **Content & Growth** — 818-seo-blog AI 自动发文（DNF 噩梦模式攻略 + DNF手游狩猎者2026版本攻略 + 王者荣耀大禹改版S43辅助攻略 + 王者荣耀S43赛季上分攻略T0梯度），818-scout 持续俄语 Telegram 市场获客
+- 🎮 **CI/CD & Stability** — 818-gaming 接入 CodeRabbit AI code review（中文配置），新增 admin-migrate skill 辅助 Vue→React 功能迁移，子模块持续更新（申诉模板集成 + 超时审核 + 测试基础设施）
+- 🌏 **Content & Growth** — 818-seo-blog AI 自动发文（DNF手游80版本二觉全攻略 + DNF 噩梦模式攻略 + DNF手游狩猎者2026版本攻略 + 王者荣耀S43赛季上分攻略T0梯度），818-scout 持续俄语 Telegram 市场获客
 - 🏗️ **SOP & Infra** — 818-sop 新增 AI Skill 管理 SOP + 数据库 SOP 审查整改 + CLAUDE.md 规则注入，统一 21+ 个 SOP + Runbook 规范所有 Agent 协作；818-infra 统一本地中间件
 
 ---
