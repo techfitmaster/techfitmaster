@@ -39,6 +39,10 @@
 - **[818-knowledge-base](https://github.com/techfitmaster/818-knowledge-base)** - AI 团队共享知识库 & SOP 体系（唯一真相来源）
 - **[818-sop](https://github.com/techfitmaster/818-sop)** - 818科技 SOP 文档仓库（21个 SOP + 产品操作手册 + Runbook，供所有 Agent 只读）
 
+### 🌍 Logistics & SaaS
+
+- **[818-cargo](https://github.com/techfitmaster/818-cargo)** 🔥 - 中俄集运 SaaS 平台（Go + React，服务在俄华人/留学生，分销商多渠道获客 + 阶梯返佣 + 客户裂变）
+
 ### 🛠️ Tools & Side Projects
 
 - **[skills](https://github.com/techfitmaster/skills)** 🔥 - 共享 Agent Skills 发布仓库，ClawHub 官方收录
@@ -67,12 +71,13 @@
 - **7×24h AI 团队** — OpenClaw 多角色 Agent 负责运营、研发、产品决策
 - **自动化闭环** — Issue → AI 实现 → PR → Review → 合并，全程最小人工干预
 
-## 📈 2026 Focus (更新于 2026-03-23)
+## 📈 2026 Focus (更新于 2026-03-24)
 
-- 🤖 **Agentic Evolution** — 818-agi 引入 eval 验证 + 自我改进流程（步骤7），端口规划统一管理，portal/admin 迁移为 Git 子模块架构
-- 🎮 **CI/CD & Stability** — 818-gaming 接入 CodeRabbit AI code review（中文配置），新增 admin-migrate skill 辅助 Vue→React 功能迁移，子模块持续更新（申诉模板集成 + 超时审核 + 测试基础设施）
-- 🌏 **Content & Growth** — 818-seo-blog AI 自动发文（DNF手游80版本二觉全攻略 + DNF 噩梦模式攻略 + DNF手游狩猎者2026版本攻略 + 王者荣耀S43赛季上分攻略T0梯度），818-scout 持续俄语 Telegram 市场获客
-- 🏗️ **SOP & Infra** — 818-sop 新增 AI Skill 管理 SOP + 数据库 SOP 审查整改 + CLAUDE.md 规则注入，统一 21+ 个 SOP + Runbook 规范所有 Agent 协作；818-infra 统一本地中间件
+- 🚚 **New Venture** — 818-cargo 正式启动，中俄集运 SaaS 平台（SPEC v2.1），后端 MVP + 管理后台 + 用户端 frontend 子模块已落地
+- 🎮 **CI/CD & Stability** — 818-gaming 高频迭代（公会泰拉车系统 + 流水明细 + 订阅消息推送 + 资讯模块），12 commits in 24h
+- 🤖 **Agentic Evolution** — 818-agi 引入 eval 验证 + 自我改进流程，OpenClaw 多角色 AI 团队驱动全流程自动化
+- 🌏 **Content & Growth** — 818-seo-blog AI 自动发文持续运营（王者荣耀 S42/S43 攻略），818-scout 俄语 Telegram 市场获客
+- 🏗️ **SOP & Infra** — 818-sop 统一 21+ 个 SOP + CHECK 约束/覆盖索引/钱包不变量规范，所有 Agent 协作遵循统一工程规范
 
 ---
 
