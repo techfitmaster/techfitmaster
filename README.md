@@ -71,13 +71,13 @@
 - **7×24h AI 团队** — OpenClaw 多角色 Agent 负责运营、研发、产品决策
 - **自动化闭环** — Issue → AI 实现 → PR → Review → 合并，全程最小人工干预
 
-## 📈 2026 Focus (更新于 2026-03-25)
+## 📈 2026 Focus (更新于 2026-03-26)
 
 - 🚚 **New Venture** — 818-cargo 中俄集运 SaaS 平台持续推进，Portal 用户端 UI + 国际化（i18n）+ BuyCN 合伙人体系已落地，SOP 清理 + go-shared 分页测试同步完成
-- 🎮 **CI/CD & Stability** — 818-gaming 高频迭代（公会泰拉车系统 + 流水明细 + 订阅消息推送 + 资讯模块）
-- 🤖 **Agentic Evolution** — 818-agi 引入 eval 验证 + 自我改进流程，OpenClaw 多角色 AI 团队驱动全流程自动化
-- 🌏 **Content & Growth** — 818-seo-blog AI 自动发文（王者荣耀 S43 赛季最强上分英雄推荐已发布），818-scout 俄语 Telegram 市场获客
-- 🏗️ **SOP & Infra** — 818-sop 统一 21+ 个 SOP + CHECK 约束/覆盖索引/钱包不变量规范，所有 Agent 协作遵循统一工程规范
+- 🎮 **CI/CD & Stability** — 818-gaming 高频迭代（公会泰拉车系统 + 流水明细 + 订阅消息推送），PR 模板标准化 + CI --max-warnings 修复落地
+- 🤖 **Agentic Evolution** — 818-agi 新增协作模块（GitHub Issue 管理 + /cmd API + 前端页面），eval 验证 + 自我改进流程驱动全栈自动化
+- 🌏 **Content & Growth** — 818-seo-blog AI 自动发文持续运转，818-scout 俄语 Telegram 市场获客
+- 🏗️ **Open Source SOP** — 818-sop 正式开源发布 agentic-playbook v1.0（双语 README），新增协作工具 & 开发工作流 SOP（Slack + Linear + GitHub），Sprint 角色操作手册覆盖 818-gaming & 818-cargo
 
 ---
 
