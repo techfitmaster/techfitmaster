@@ -72,11 +72,11 @@
 - **7×24h AI 团队** — OpenClaw 多角色 Agent 负责运营、研发、产品决策
 - **自动化闭环** — Issue → AI 实现 → PR → Review → 合并，全程最小人工干预
 
-## 📈 2026 Focus (更新于 2026-04-13)
+## 📈 2026 Focus (更新于 2026-04-14)
 
-- 🗂️ **Portfolio Still Clean** — 本轮扫描 `/Users/dresing/projects` 下所有 `818*` Git 仓库，未发现 README 未收录的新项目；当前展示范围与本地仓库集保持一致
-- 🌙 **No Fresh Commits in the Last 24h** — 本次检查中，所有本地 `818*` 仓库最近 24 小时均无新提交，说明当前节奏更偏向已启动工作的消化、验证与线下推进，而非频繁提交
-- 🎮 **Gaming Platform Remains the Core Base** — `818-gaming` 与相关 admin/deploy 配套仓库仍是游戏服务平台的主战场，后续重点继续放在共享能力沉淀、部署一致性与多端协作效率
-- 🤖 **Agentic Products Stay Strategic** — `818-agi`、`818-scout`、`818-opc-auto`、`818-knowledge-base` 与 `818-sop` 继续构成 AI 产品与 Agent 工作流的核心方向，重心仍在自动化闭环、知识沉淀与业务转化
+- 🗂️ **Portfolio Still Clean** — 本轮扫描 `/Users/dresing/projects` 下全部 `818*` Git 仓库（共 9 个）后，未发现 README 未收录的新项目；当前展示范围与本地 Git 仓库集保持一致
+- 🌙 **No Fresh Commits in the Last 24h** — 本次检查中，所有本地 `818*` Git 仓库最近 24 小时均无新提交，当前节奏更偏向已有项目的推进、验证与线下协同，而不是高频提交
+- 🎮 **Gaming Platform Remains the Core Base** — `818-gaming`、`818-gaming-admin` 与 `818-gaming-deploy` 仍是游戏服务平台的核心组合，后续重点继续放在多端协同、部署一致性与共享能力沉淀
+- 🤖 **Agentic Products Stay Strategic** — `818-agi`、`818-scout`、`818-opc-auto`、`818-knowledge-base` 与 `818-sop` 继续构成 AI 产品与 Agent 工作流主线，重心仍在自动化闭环、知识沉淀与业务转化
 - 🚚 **Cargo Still Represents SaaS Expansion** — `818-cargo` 依旧代表面向真实交易场景的 SaaS 延展方向，后续价值在于把获客、履约、分销和返佣链路打成可复制系统
-- 🏗️ **Operations as a System** — 持续把 SOP、巡检、基础设施与部署标准化沉淀成可复用 playbook，支撑多个 818 项目并行推进
+- 🏗️ **Operations as a System** — `818-monitor` 与 `818-infra` 继续承担运维标准化底座角色，支撑多个 818 项目并行推进与统一巡检/环境治理
